@@ -1,0 +1,88 @@
+# Python caches and environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+.conda/
+
+# IDE and OS temporary files
+.idea/
+.vscode/
+.vs/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local logs and temporary build output
+*.log
+logs/
+/logs/
+build/
+dist/
+*.egg-info/
+.cache/
+.coverage
+htmlcov/
+tmp/
+temp/
+
+# Experimental data: keep README and approved fixtures elsewhere
+/06_Data/raw/
+/06_Data/processed/
+/06_Data/exported/
+/06_Data/local/
+*.bag
+*.mcap
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.parquet
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+
+# Local reference PDFs excluded pending permission to upload
+/08_References/open-h-endoluminal.pdf
+/08_References/references/A generic scope actuation system for flexible endoscopes.pdf
+
+# Credentials, secrets and machine-local configuration
+.aws/
+.azure/
+.ssh/
+.codex/
+.agents/
+.gitconfig
+.git-credentials
+.netrc
+.npmrc
+.pypirc
+.env
+.env.*
+!.env.example
+!.env.template
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+id_rsa*
+id_ed25519*
+credentials.json
+secrets.*
+*.local.*
+/local_config/
+
+# Small documentation/text fixtures remain trackable by default.
+# For explicitly approved fixtures with ignored data extensions, add narrowly
+# scoped exceptions before the credential rules; never unignore all fixtures.
